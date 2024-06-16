@@ -1,0 +1,54 @@
+\hypertarget{classLoadBalancer}{}\doxysection{Load\+Balancer Class Reference}
+\label{classLoadBalancer}\index{LoadBalancer@{LoadBalancer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLoadBalancer_a6114560fd6fd431c75adeab2f0b230a9}{Load\+Balancer}} (int num\+Servers)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classLoadBalancer}{Load\+Balancer}} with the specified number of servers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classLoadBalancer_a9c28b7a88af59014b4d7a9d68ea7d41f}\label{classLoadBalancer_a9c28b7a88af59014b4d7a9d68ea7d41f}} 
+void \mbox{\hyperlink{classLoadBalancer_a9c28b7a88af59014b4d7a9d68ea7d41f}{distribute\+Request}} ()
+\begin{DoxyCompactList}\small\item\em Distributes a request to one of the servers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLoadBalancer_abba1a1fcaa67e79e9aee94e903e1458c}{add\+Request}} (const \mbox{\hyperlink{structRequest}{Request}} \&request)
+\begin{DoxyCompactList}\small\item\em Adds a request to the load balancer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLoadBalancer_a6114560fd6fd431c75adeab2f0b230a9}\label{classLoadBalancer_a6114560fd6fd431c75adeab2f0b230a9}} 
+\index{LoadBalancer@{LoadBalancer}!LoadBalancer@{LoadBalancer}}
+\index{LoadBalancer@{LoadBalancer}!LoadBalancer@{LoadBalancer}}
+\doxysubsubsection{\texorpdfstring{LoadBalancer()}{LoadBalancer()}}
+{\footnotesize\ttfamily Load\+Balancer\+::\+Load\+Balancer (\begin{DoxyParamCaption}\item[{int}]{num\+Servers }\end{DoxyParamCaption})}
+
+
+
+Constructs a \mbox{\hyperlink{classLoadBalancer}{Load\+Balancer}} with the specified number of servers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Servers} & The number of servers to manage. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLoadBalancer_abba1a1fcaa67e79e9aee94e903e1458c}\label{classLoadBalancer_abba1a1fcaa67e79e9aee94e903e1458c}} 
+\index{LoadBalancer@{LoadBalancer}!addRequest@{addRequest}}
+\index{addRequest@{addRequest}!LoadBalancer@{LoadBalancer}}
+\doxysubsubsection{\texorpdfstring{addRequest()}{addRequest()}}
+{\footnotesize\ttfamily void Load\+Balancer\+::add\+Request (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structRequest}{Request}} \&}]{request }\end{DoxyParamCaption})}
+
+
+
+Adds a request to the load balancer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & The request to add. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Load\+Balancer.\+h\item 
+src/Load\+Balancer.\+cpp\end{DoxyCompactItemize}
